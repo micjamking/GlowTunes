@@ -60,8 +60,8 @@ body:before{
 }
 
 .header h1{
-    width: 450px;
-    margin: 0 0 0 -225px;
+    width: 100%;
+    margin: 0 0 0 -50%;
     top: -125px;
     font-weight: normal;
 	font-size: 24px;

@@ -15,10 +15,7 @@ $(function(){
 		
 		$('.current_song').text($('.selected').text());
 		$('.container').fadeIn(); $('.player').addClass('visible');
-		
-		if (!window.createAnalyser && !window.webkitAudioContext) { 
-			setTimeout(function(){ $('.toggle').fadeIn('slow');},800); 
-		}
+		if ($.browser.safari){ setTimeout(function(){ $('.toggle').fadeIn('slow');},800);}
 	});
 	
 	
