@@ -113,6 +113,10 @@ body:before{
 		    	0px 0px 2px 20px rgba(30, 34, 33, 0.1);
 }
 
+#audio{
+	display: none;
+}
+
 .control-play{
 	display: block;
 	width: 195px;
