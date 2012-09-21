@@ -299,7 +299,7 @@ body:before{
 /* -----------------------------------------
    Media Queries
 ----------------------------------------- */
-@media only screen and(max-width: 768px){
+@media only screen and(max-width: 769px){
 	body, .control-play{
 		box-shadow: none; 
 	}
