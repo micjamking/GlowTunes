@@ -15,7 +15,7 @@ $(function(){
 		
 		$('.current_song').text($('.selected').text());
 		$('.container').fadeIn(); $('.player').addClass('visible');
-		//if ($.browser.safari){ setTimeout(function(){ $('.toggle').fadeIn('slow');},800);}
+		if ($.browser.safari){ setTimeout(function(){ $('.toggle').fadeIn('slow');},800);}
 	});
 	
 	
@@ -84,7 +84,7 @@ $(function(){
 	/* -----------------------------------------
    	// Frequency Visualizer (Canvas)
 	----------------------------------------- */
-	//if (window.webkitAudioContext) {
+	if (window.webkitAudioContext) {
 		var context 	= new webkitAudioContext();
 		var analyser 	= context.createAnalyser();
 	
@@ -135,7 +135,7 @@ $(function(){
 			analyser.connect(context.destination);
 			freqCallback();
 		}
-	//}
+	}
 	
 
 	/* -----------------------------------------
