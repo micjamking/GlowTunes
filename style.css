@@ -106,6 +106,7 @@ body:before{
 .player{
 	display: block;
 	width: 215px;
+	height: 215px;
 	margin: 13px auto 0;
 	position: relative;
 	border-radius: 200px;
@@ -123,6 +124,9 @@ body:before{
 	height: 150px;
 	padding: 65px 0 0 20px;
 	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
 	border-radius: 200px;
 	background: linear-gradient(25deg, #0b0b0b 0%, #0d0d0d 75%, #283231 100%);
 	box-shadow: inset 0px 0px 1px 1px rgba(30, 34, 33, 0.35),
