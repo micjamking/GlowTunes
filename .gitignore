@@ -1,0 +1,7 @@
+#Ignore file patterns for GlowTunes
+
+# OSX
+.DS_Store
+Icon
+._*
+.Spotlight-V100

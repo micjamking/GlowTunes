@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+ *
+ * GlowTunes - HTML5 Audio Player Experiment
+ * Author: Mike King (@micjamking)
+ *
+ * Inspiration:
+ *    - HTML5 Audio/Web Audio API by Eric Bidelman | http://goo.gl/AUwLx
+ *    - Canvas Sparkle Light Trail by Victoria Johnson | http://goo.gl/liRTb
+ *
+ -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+	<title>GlowTunes // HTML5 Audio Player</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 class="current_song"></h1>
+			<h2 class="current_time"></h2>
+		</div>
+		
+		<div class="deck one">
+			<div class="player">
+				<audio id="audio" preload="auto" src="audio/New Format Jazz.mp3" type="audio/mpeg"></audio>
+	  			<a class="control-play" data-title="Play">&#9654;</a>
+			</div>
+			
+			<a class="toggle closed">+</a>
+			<ol class="tracklist hidden">
+				<li class="selected">New Format Jazz</li>
+				<li>Prefer To Be Plastered</li>
+				<li>Moments In Love (Caspa Remix)</li>
+				<li>Speakers Corner (Eskmo & The Antiserum Remix)</li>
+				<li>What You Won't Do For Love (DZ Remix)</li>
+				<li>Cay's Crays (Digital Mystikz Remix)</li>
+				<li>Goin' In (Skrillex Remix)</li>
+				<li>Good Old Days</li>
+				<li>Too Late</li>
+				<li>Ras Vibes</li>
+			</ol>
+		</div>		
+	</div>
+	
+    <canvas id="frequency-1" class="frequency-1" width="512" height="200"></canvas>
+	<canvas id="frequency-2" class="frequency-2" width="512" height="200"></canvas>
+	
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
