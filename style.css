@@ -297,6 +297,16 @@ body:before{
 
 
 /* -----------------------------------------
+   Media Queries
+----------------------------------------- */
+@media only screen and(max-width: 768px){
+	body, .control-play{
+		box-shadow: none; 
+	}
+}
+
+
+/* -----------------------------------------
    Interactions
 ----------------------------------------- */
 .control-play:hover{ color: rgb(179, 107, 175); }
