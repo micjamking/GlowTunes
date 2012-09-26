@@ -11,7 +11,7 @@ html, body{ height: 100%; background-color: #111; }
 
 body{
 	position: relative; 
-	box-shadow: inset 0px 0px 150px rgba(0,0,0,0.75); 
+	box-shadow: inset 0px 0px 150px rgba(0,0,0,0.75);
 	font-family: 'Play', sans-serif; 
 	color: #FFFFFF;
 }
@@ -299,10 +299,8 @@ body:before{
 /* -----------------------------------------
    Media Queries
 ----------------------------------------- */
-@media only screen and (max-width: 768px){
-	body, .control-play{
-		box-shadow: none; 
-	}
+body, .control-play{
+	box-shadow: none; 
 }
 
 

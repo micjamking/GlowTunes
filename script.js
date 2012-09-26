@@ -114,7 +114,7 @@ $(function(){
 		
 			ctx2.fillStyle 		= '#000000';
 			ctx2.lineCap 		= 'round';
-			ctx3.fillStyle 		= 'rgba(252, 233, 252, 1)';
+			ctx3.fillStyle 		= 'rgb(179, 107, 175)';
 			ctx3.shadowColor 	= 'hsla(303, 80%, 60%, 1)';
 			ctx3.shadowBlur 	= 25;
 			ctx3.lineCap 		= 'round';
@@ -238,5 +238,5 @@ $(function(){
 		
 		$('.player').prepend(c);
 		$(c).addClass('progress').hide();
-
+		
 });
