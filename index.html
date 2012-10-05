@@ -20,6 +20,20 @@
 	<link rel="stylesheet" href="style.css" />
 	
 	<title>GlowTunes // HTML5 Audio Player</title>
+	
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20024456-8']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
 </head>
 <body>
 	<div class="container">
@@ -51,11 +65,12 @@
 		</div>		
 	</div>
 	
-    <canvas id="frequency-1" class="frequency-1" width="512" height="200"></canvas>
-	<canvas id="frequency-2" class="frequency-2" width="512" height="200"></canvas>
+    <canvas id="frequency-1" class="frequency-1"></canvas>
+	<canvas id="frequency-2" class="frequency-2"></canvas>
 	
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
 	<script src="script.js"></script>
+
 </body>
 </html>
